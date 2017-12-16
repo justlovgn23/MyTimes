@@ -9,7 +9,7 @@
     height: 80px;
     border-bottom: 1px solid black;
     position: fixed;  
-   
+    
 }
 .logo{
     display:flex;
@@ -50,23 +50,34 @@ nav li{
 }
 .maincontainer {
     display: flex;
-   
 }
+
 
 .column.large{
     width: 630px;
-    display: block;
     margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+    margin-top: 116px;
 }
 
 .column.medium{
     width: 300px;
     margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+    margin-top: 116px;
 }
 
 .column.small{
     width: 240px;
     margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 32px;
+    margin-top: 116px;
 }
 .narrative{
     font-family: Georgia;
